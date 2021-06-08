@@ -65,5 +65,6 @@ def update():
 		pic=get_pic(i % 3, i // 3)
 		if(pic == None or pic.index !=i):
 			return
+	finished=True
 
 pgzrun.go()
